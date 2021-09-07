@@ -1,1 +1,1 @@
-# ci-cd-example
+# simple-spring
