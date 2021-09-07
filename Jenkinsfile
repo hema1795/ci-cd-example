@@ -1,6 +1,10 @@
 pipeline {
   environment {
     registryCredential = "17hema"
+    PROJECT_ID = 'handy-hexagon-318203'
+    CLUSTER_NAME = 'jenkins'
+    LOCATION = 'us-central1-c'
+    CREDENTIALS_ID = 'handy-hexagon-318203'
   }
   agent any
   stages {
